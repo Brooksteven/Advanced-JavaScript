@@ -23,6 +23,7 @@ const solarSystem = [
 //   console.log(solarSystem)
   
   // 4. Add a Pluto object to the solarSystem array using .push. The object should contain Pluto's name, ringSystem boolean, and moons array (which includes "Charon").
+  //source: https://www.freecodecamp.org/news/javascript-array-insert-how-to-add-to-an-array-with-the-push-unshift-and-concat-functions/
 //   let obj = {name: "Pluto", ringSystem: true, moons: ['Charon'] }
 //   solarSystem.push(obj)
 //   console.log(solarSystem)
@@ -42,7 +43,7 @@ const solarSystem = [
 //   console.log(solarSystem[6])
   
   // 8. Iterate through the solarSystem array and print only the objects that have a ringSystem (where ringSystem: true), and ignore the others.
-  //source: https://stackoverflow.com/questions/67218235/loop-through-an-object-and-return-the-values-of-a-specific-property
+  //source: https://www.freecodecamp.org/news/loop-through-arrays-javascript/
 
 //   for (let i = 0; i < solarSystem.length; i++){
 //   if (solarSystem[i].ringSystem === true) {
@@ -211,6 +212,7 @@ const solarSystem = [
     //  console.log(totalSatellites);
   
   // 4. Write a conditional that checks if Mercury's radiusp is a string (remember the typeof command). If Mercury's radiusp is a string, change the value to be the same as its radiuse value. (radiusp is radius at the poles, radiuse is radius at the equator).
+    //source: https://www.freecodecamp.org/news/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js/
     //  if (typeof system.mercury.radiusp === 'string') {
     //  system.mercury.radiusp = system.mercury.radiuse;
     //  }
