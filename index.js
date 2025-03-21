@@ -223,7 +223,7 @@ const solarSystem = [
   
   // 6. Find the difference between Jupiter's momentum and Pluto's momentum. (To get momentum, you'll want the product of velocity and mass).
   //momentum = mass * velocity
-  let jupiterMomentum = system.jupiter.mass * system.jupiter.velocity
-  let plutoMomentum = system.pluto.mass * system.pluto.velocity
-  let momentumDifference = jupiterMomentum - plutoMomentum
-  console.log(momentumDifference)
+//   let jupiterMomentum = system.jupiter.mass * system.jupiter.velocity
+//   let plutoMomentum = system.pluto.mass * system.pluto.velocity
+//   let momentumDifference = jupiterMomentum - plutoMomentum
+//   console.log(momentumDifference)
